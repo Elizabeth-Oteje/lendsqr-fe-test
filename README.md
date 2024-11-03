@@ -1,6 +1,9 @@
 # Admin Management System
 
-This project is an **Admin Management System** built with **React**, **TypeScript**, and **SCSS**. The application enables admins to log in, access their dashboard, view a list of all users, and view detailed information for each user.
+This project is an **Admin Management System** built with **React**,
+**TypeScript**, and **SCSS**. The application enables admins to log in, access
+their dashboard, view a list of all users, and view detailed information for
+each user.
 
 ## Table of Contents
 
@@ -13,16 +16,14 @@ This project is an **Admin Management System** built with **React**, **TypeScrip
   - [Running the App](#running-the-app)
   - [Build for Production](#build-for-production)
 - [Scripts](#scripts)
-- [Available Pages](#available-pages)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
 ## Features
 
 - **Admin Login**: Secure login functionality for administrators.
-- **Dashboard**: Overview page for admins, displaying essential metrics and navigation.
+- **Dashboard**: Overview page for admins, displaying essential metrics and
+  navigation.
 - **User Management**: List all users in the system, with basic details.
 - **User Details**: View detailed information for each individual user.
 
@@ -31,35 +32,30 @@ This project is an **Admin Management System** built with **React**, **TypeScrip
 ## Tech Stack
 
 - **React**: Frontend JavaScript library for building user interfaces.
-- **TypeScript**: Superset of JavaScript with static typing, enhancing code quality and maintainability.
-- **SCSS**: CSS preprocessor that adds nested rules, variables, and mixins for better styling structure.
+- **TypeScript**: Superset of JavaScript with static typing, enhancing code
+  quality and maintainability.
+- **SCSS**: CSS preprocessor that adds nested rules, variables, and mixins for
+  better styling structure.
 - **React Router**: For routing and navigation between application pages.
-- **Context API**: For global state management, especially for user authentication.
+- **Context API**: For global state management, especially for user
+  authentication.
 
 ## Project Structure
 
-The following folder structure is used to keep the codebase modular and maintainable:
+The following folder structure is used to keep the codebase modular and
+maintainable:
 
-my-app/
-├── .vscode/ # Editor settings
-├── public/ # Static assets
-├── src/
-│ ├── assets/ # Images and static files
-│ ├── components/ # Reusable components (e.g., Button, Modal)
-│ ├── context/ # Context API for global state (e.g., AuthContext)
-│ ├── hooks/ # Custom hooks
-│ ├── pages/ # Main application pages
-│ │ ├── Dashboard/ # Admin dashboard page
-│ │ ├── Login/ # Login page
-│ │ ├── Users/ # User listing page
-│ │ └── UserDetails/ # Individual user details page
-│ ├── services/ # API calls and business logic (e.g., authService, userService)
-│ ├── types/ # TypeScript type definitions
-│ ├── App.tsx # Main application component
-│ ├── index.tsx # Application entry point
-│ └── styles/ # Global SCSS styles
-└── .prettierrc # Code formatting
-└── tsconfig.json # TypeScript configuration
+my-app/ ├── .vscode/ # Editor settings ├── public/ # Static assets ├── src/ │
+├── assets/ # Images and static files │ ├── components/ # Reusable components
+(e.g., Button, Modal) │ ├── context/ # Context API for global state (e.g.,
+AuthContext) │ ├── hooks/ # Custom hooks │ ├── pages/ # Main application pages │
+│ ├── Dashboard/ # Admin dashboard page │ │ ├── Login/ # Login page │ │ ├──
+Users/ # User listing page │ │ └── UserDetails/ # Individual user details page │
+├── services/ # API calls and business logic (e.g., authService, userService) │
+├── types/ # TypeScript type definitions │ ├── App.tsx # Main application
+component │ ├── index.tsx # Application entry point │ └── styles/ # Global SCSS
+styles └── .prettierrc # Code formatting └── tsconfig.json # TypeScript
+configuration
 
 ## Getting Started
 
@@ -134,7 +130,8 @@ The following scripts are available:
 1. **Login Page**:
    - Allows admins to securely log in to access the system.
 2. **Dashboard**:
-   - The main hub for administrators, providing access to user management and displaying essential metrics.
+   - The main hub for administrators, providing access to user management and
+     displaying essential metrics.
 3. **Users Page**:
    - Lists all users in the system, with search and filter capabilities.
 4. **User Details Page**:
