@@ -46,17 +46,25 @@ each user.
 The following folder structure is used to keep the codebase modular and
 maintainable:
 
-my-app/ ├── .vscode/ # Editor settings ├── public/ # Static assets ├── src/ │
-├── assets/ # Images and static files │ ├── components/ # Reusable components
-(e.g., Button, Modal) │ ├── context/ # Context API for global state (e.g.,
-AuthContext) │ ├── hooks/ # Custom hooks │ ├── pages/ # Main application pages │
-│ ├── Dashboard/ # Admin dashboard page │ │ ├── Login/ # Login page │ │ ├──
-Users/ # User listing page │ │ └── UserDetails/ # Individual user details page │
-├── services/ # API calls and business logic (e.g., authService, userService) │
-├── types/ # TypeScript type definitions │ ├── App.tsx # Main application
-component │ ├── index.tsx # Application entry point │ └── styles/ # Global SCSS
-styles └── .prettierrc # Code formatting └── tsconfig.json # TypeScript
-configuration
+my-app/ 
+├── .vscode/ # Editor settings 
+├── public/ # Static assets 
+├── src/ 
+│ ├── assets/ # Images and static files 
+│ ├── components/ # Reusable components(e.g., Button, Navbar) 
+│ ├── context/ # Context API for global state (e.g.,AuthContext)
+│ ├── pages/ # Main application pages 
+│ │ ├── Dashboard/ # Admin dashboard page 
+│ │ ├── Login/ # Login page 
+│ │ ├── Users/ # User listing page 
+│ │ ├── UserDetails/ # Individual user details page 
+│ ├── services/ # API calls (e.g., authService, userService) 
+│ ├── types/ # TypeScript type definitions 
+│ ├── App.tsx # Main application component 
+│ ├── index.tsx # Application entry point 
+│ ├── styles/ # Global SCSS styles 
+├── .prettierrc # Code formatting 
+├── tsconfig.json # TypeScript configuration
 
 ## Getting Started
 
