@@ -45,8 +45,8 @@ each user.
 
 The following folder structure is used to keep the codebase modular and
 maintainable:
-
-my-app/ 
+```
+|--- MY-APP/ 
 ├── .vscode/ # Editor settings 
 ├── public/ # Static assets 
 ├── src/ 
@@ -65,7 +65,7 @@ my-app/
 │ ├── styles/ # Global SCSS styles 
 ├── .prettierrc # Code formatting 
 ├── tsconfig.json # TypeScript configuration
-
+```
 ## Getting Started
 
 ### Prerequisites
