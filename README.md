@@ -16,6 +16,7 @@ each user.
   - [Running the App](#running-the-app)
   - [Build for Production](#build-for-production)
 - [Scripts](#scripts)
+- [Available Pages](#available-pages)
 
 ---
 
